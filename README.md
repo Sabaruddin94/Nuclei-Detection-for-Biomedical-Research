@@ -5,6 +5,7 @@ The tool aims to expedite research in understanding various diseases such as can
 The model uses a U-Net architecture with transfer learning to segment images and identify the regions of interest (nuclei), which are essential for further genetic analysis and drug testing.
 
 Project Overview
+
 The goal of this project is to build an efficient and accurate model for nuclei segmentation using a deep learning approach. 
 This project is part of a larger effort to improve the speed and accuracy of disease research by automating the detection of key biological features in medical images.
 
@@ -15,22 +16,23 @@ Key Steps
 4. Evaluation: Evaluate the model on the test set, achieving more than 80% accuracy.
 
 Requirements
-Python 3.x
-TensorFlow 2.x
-Keras
-OpenCV
-Matplotlib
-Scikit-learn
-TensorFlow Datasets
+1.Python 3.x
+2. TensorFlow 2.x
+3. Keras
+4. OpenCV
+5. Matplotlib
+6. Scikit-learn
+7. TensorFlow Datasets
 
 Dataset
+
 The dataset used for training and evaluation is the Data Science Bowl 2018 dataset, which contains images of cell nuclei and corresponding segmentation masks. 
 The dataset can be downloaded from Kaggle:Data Science Bowl 2018 Dataset.
 Link to the source of data: https://www.kaggle.com/competitions/data-science-bowl-2018/overview
 
 Model Architecture
-The model is built using the U-Net architecture, which is highly effective for image segmentation tasks. The model consists of:
 
+The model is built using the U-Net architecture, which is highly effective for image segmentation tasks. The model consists of:
 1. Downsampling Path: Extracts relevant features using a pretrained MobileNetV2 model.
 2. Upsampling Path: Restores the spatial dimensions and refines the segmentation.
 3. Output Layer: A single convolutional layer with a sigmoid activation for binary segmentation (nucleus vs. background).
