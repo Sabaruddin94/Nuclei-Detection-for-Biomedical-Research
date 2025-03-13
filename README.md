@@ -5,7 +5,7 @@ This project involves the development of a semantic segmentation model for detec
 The tool aims to expedite research in understanding various diseases such as cancer, Alzheimer's, and heart disease by automating the process of identifying cell nuclei in microscopic images. 
 The model uses a U-Net architecture with transfer learning to segment images and identify the regions of interest (nuclei), which are essential for further genetic analysis and drug testing.
 
-## Introduction
+## Introduction:
 
 The goal of this project is to build an efficient and accurate model for nuclei segmentation using a deep learning approach. 
 This project is part of a larger effort to improve the speed and accuracy of disease research by automating the detection of key biological features in medical images.
@@ -32,9 +32,9 @@ The dataset used for training and evaluation is the Data Science Bowl 2018 datas
 The dataset can be downloaded from Kaggle:Data Science Bowl 2018 Dataset.
 You can get full raport [hear](https://www.kaggle.com/competitions/data-science-bowl-2018/overview).
 
-## Model Architecture
+## Model Architecture:
 
-The model is built using the U-Net architecture, which is highly effective for image segmentation tasks. The model consists of:
+The model is built using the U-Net architecture, which is highly effective for image segmentation tasks.
 1. Downsampling Path: Extracts relevant features using a pretrained MobileNetV2 model.
 2. Upsampling Path: Restores the spatial dimensions and refines the segmentation.
 3. Output Layer: A single convolutional layer with a sigmoid activation for binary segmentation (nucleus vs. background).
