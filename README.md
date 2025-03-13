@@ -30,7 +30,7 @@ Dataset:
 
 The dataset used for training and evaluation is the Data Science Bowl 2018 dataset, which contains images of cell nuclei and corresponding segmentation masks. 
 The dataset can be downloaded from Kaggle:Data Science Bowl 2018 Dataset.
-You can get full raport [hear](https://github.com/mistrzuniu1/Data-Science-Bowl-2018---kaggle-competiton./blob/master/raport.ipynb).
+You can get full raport [hear](https://www.kaggle.com/competitions/data-science-bowl-2018/overview).
 
 ## Model Architecture
 
