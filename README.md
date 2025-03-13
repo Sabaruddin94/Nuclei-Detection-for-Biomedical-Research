@@ -4,7 +4,7 @@ This project involves the development of a semantic segmentation model for detec
 The tool aims to expedite research in understanding various diseases such as cancer, Alzheimer's, and heart disease by automating the process of identifying cell nuclei in microscopic images. 
 The model uses a U-Net architecture with transfer learning to segment images and identify the regions of interest (nuclei), which are essential for further genetic analysis and drug testing.
 
-Project Overview
+Project Overview:
 
 The goal of this project is to build an efficient and accurate model for nuclei segmentation using a deep learning approach. 
 This project is part of a larger effort to improve the speed and accuracy of disease research by automating the detection of key biological features in medical images.
