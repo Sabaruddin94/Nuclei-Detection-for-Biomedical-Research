@@ -1,10 +1,11 @@
+
 Nuclei Detection for Biomedical Research
 
 This project involves the development of a semantic segmentation model for detecting cell nuclei in biomedical images. 
 The tool aims to expedite research in understanding various diseases such as cancer, Alzheimer's, and heart disease by automating the process of identifying cell nuclei in microscopic images. 
 The model uses a U-Net architecture with transfer learning to segment images and identify the regions of interest (nuclei), which are essential for further genetic analysis and drug testing.
 
-Project Overview:
+## 1.Introduction
 
 The goal of this project is to build an efficient and accurate model for nuclei segmentation using a deep learning approach. 
 This project is part of a larger effort to improve the speed and accuracy of disease research by automating the detection of key biological features in medical images.
@@ -29,7 +30,7 @@ Dataset:
 
 The dataset used for training and evaluation is the Data Science Bowl 2018 dataset, which contains images of cell nuclei and corresponding segmentation masks. 
 The dataset can be downloaded from Kaggle:Data Science Bowl 2018 Dataset.
-Link to the source of data: https://www.kaggle.com/competitions/data-science-bowl-2018/overview
+You can get full raport [hear](https://github.com/mistrzuniu1/Data-Science-Bowl-2018---kaggle-competiton./blob/master/raport.ipynb).
 
 Model Architecture:
 
@@ -50,6 +51,7 @@ Training & TensorBoard Integration:
 During training, TensorBoard is used to monitor model performance in real-time. This provides useful visualizations such as loss curves, accuracy, and other metrics.
 
 Here’s a sample screenshot from TensorBoard showing the training and validation loss and accuracy.
+
 ![alt text](<Image/epoch accuracy.png>)
 
 ![alt text](<Image/epocj loss.png>)
