@@ -17,7 +17,7 @@ Key Steps:
 
 Requirements:
 
-1.Python 3.x
+1. Python 3.x
 2. TensorFlow 2.x
 3. Keras
 4. OpenCV
