@@ -30,7 +30,7 @@ Dataset:
 
 The dataset used for training and evaluation is the Data Science Bowl 2018 dataset, which contains images of cell nuclei and corresponding segmentation masks. 
 The dataset can be downloaded from Kaggle:Data Science Bowl 2018 Dataset.
-You can get full raport [hear](https://www.kaggle.com/competitions/data-science-bowl-2018/overview).
+You can get full raport [here]([https://www.kaggle.com/competitions/data-science-bowl-2018/overview](https://medpix.nlm.nih.gov/search?allen=false&allt=false&alli=true&query=angiography)) and [here](https://www.kaggle.com/datasets/harideepak/stenosis-new)
 
 ## Model Architecture:
 
